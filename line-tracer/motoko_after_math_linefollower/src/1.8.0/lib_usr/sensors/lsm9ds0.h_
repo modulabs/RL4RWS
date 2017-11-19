@@ -1,0 +1,39 @@
+#ifndef _LSM9DS0_H_
+#define _LSM9DS0_H_
+
+#include "../lib_usr.h"
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+struct sLSM9DS0IMU
+{
+    i16 ax, ay, az;
+    i16 mx, my, mz;
+    i16 gx, gy, gz;
+
+    i32 gx_ofs, gy_ofs, gz_ofs;
+
+    i32 roll, pitch, yaw;
+
+    i16 temp;
+};
+
+
+
+u32 lsm9ds0_init();
+struct sLSM9DS0IMU* lsm9ds0_get();
+void lsm9ds0_read();
+
+void imu_roll_reset();
+void imu_pitch_reset();
+void imu_yaw_reset();
+
+
+#ifdef __cplusplus
+}
+#endif
+
+
+#endif

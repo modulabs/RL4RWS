@@ -1,0 +1,4 @@
+qemu-system-arm -cpu cortex-m3  -M versatileab -nographic -monitor null -serial null -semihosting -kernel main.elf
+
+
+qemu-system-arm -cpu cortex-m3  -device armv7m_nvic -M versatileab -nographic -monitor null -serial null -semihosting -kernel main.elf

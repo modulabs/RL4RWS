@@ -1,0 +1,1031 @@
+In file included from device/stm32f30x/lib_low_level/usb/usb_lib/otg/../../usb_conf/../../lib_low_level.h:4:0,
+                 from device/stm32f30x/lib_low_level/usb/usb_lib/otg/../../usb_conf/usb_conf.h:29,
+                 from device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_core.h:27,
+                 from device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_core.c:23:
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/../../usb_conf/../../int_def.h:5:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'typedef'
+ typedef unsigned int u32 ;
+ ^
+In file included from device/stm32f30x/lib_low_level/usb/usb_lib/otg/../../usb_conf/../../lib_low_level.h:17:0,
+                 from device/stm32f30x/lib_low_level/usb/usb_lib/otg/../../usb_conf/usb_conf.h:29,
+                 from device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_core.h:27,
+                 from device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_core.c:23:
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/../../usb_conf/../../gpio/gpio.h:21:13: error: unknown type name 'u32'
+ void led_on(u32 led);
+             ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/../../usb_conf/../../gpio/gpio.h:22:14: error: unknown type name 'u32'
+ void led_off(u32 led); 
+              ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/../../usb_conf/../../gpio/gpio.h:23:1: error: unknown type name 'u32'
+ u32 get_key();
+ ^
+In file included from device/stm32f30x/lib_low_level/usb/usb_lib/otg/../../usb_conf/../../lib_low_level.h:18:0,
+                 from device/stm32f30x/lib_low_level/usb/usb_lib/otg/../../usb_conf/usb_conf.h:29,
+                 from device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_core.h:27,
+                 from device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_core.c:23:
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/../../usb_conf/../../timer/timer.h:20:24: error: unknown type name 'u32'
+ void timer_delay_loops(u32 loops);
+                        ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/../../usb_conf/../../timer/timer.h:22:21: error: unknown type name 'u32'
+ void timer_delay_ms(u32 ms);
+                     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/../../usb_conf/../../timer/timer.h:28:29: error: unknown type name 'u32'
+ void event_timer_set_period(u32 id, u16 period);
+                             ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/../../usb_conf/../../timer/timer.h:31:23: error: unknown type name 'u32'
+ void event_timer_wait(u32 id);
+                       ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/../../usb_conf/../../timer/timer.h:34:1: error: unknown type name 'u32'
+ u32 event_timer_get_flag(u32 id);
+ ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/../../usb_conf/../../timer/timer.h:34:26: error: unknown type name 'u32'
+ u32 event_timer_get_flag(u32 id);
+                          ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/../../usb_conf/../../timer/timer.h:36:29: error: unknown type name 'u32'
+ void event_timer_clear_flag(u32 id);
+                             ^
+In file included from device/stm32f30x/lib_low_level/usb/usb_lib/otg/../../usb_conf/../../lib_low_level.h:19:0,
+                 from device/stm32f30x/lib_low_level/usb/usb_lib/otg/../../usb_conf/usb_conf.h:29,
+                 from device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_core.h:27,
+                 from device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_core.c:23:
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/../../usb_conf/../../pwm/pwm.h:8:14: error: unknown type name 'u32'
+ void pwm_set(u32 ch0, u32 ch1);
+              ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/../../usb_conf/../../pwm/pwm.h:8:23: error: unknown type name 'u32'
+ void pwm_set(u32 ch0, u32 ch1);
+                       ^
+In file included from device/stm32f30x/lib_low_level/usb/usb_lib/otg/../../usb_conf/../../lib_low_level.h:26:0,
+                 from device/stm32f30x/lib_low_level/usb/usb_lib/otg/../../usb_conf/usb_conf.h:29,
+                 from device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_core.h:27,
+                 from device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_core.c:23:
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/../../usb_conf/../../adc/adc.h:8:14: error: unknown type name 'u32'
+ u16 adc_read(u32 ch);
+              ^
+In file included from device/stm32f30x/lib_low_level/usb/usb_lib/otg/../../usb_conf/../../lib_low_level.h:27:0,
+                 from device/stm32f30x/lib_low_level/usb/usb_lib/otg/../../usb_conf/usb_conf.h:29,
+                 from device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_core.h:27,
+                 from device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_core.c:23:
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/../../usb_conf/../../spi/spi.h:21:33: error: unknown type name 'u32'
+ void spi_block_read(u8 *buffer, u32 buffer_size);
+                                 ^
+In file included from device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_core.h:28:0,
+                 from device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_core.c:23:
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:236:5: warning: type of bit-field 'sesreqscs' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:238:5: warning: type of bit-field 'sesreq' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:240:5: warning: type of bit-field 'Reserved2_7' is a GCC extension [-Wpedantic]
+     6;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:242:5: warning: type of bit-field 'hstnegscs' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:244:5: warning: type of bit-field 'hnpreq' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:246:5: warning: type of bit-field 'hstsethnpen' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:248:5: warning: type of bit-field 'devhnpen' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:250:5: warning: type of bit-field 'Reserved12_15' is a GCC extension [-Wpedantic]
+     4;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:252:5: warning: type of bit-field 'conidsts' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:254:5: warning: type of bit-field 'Reserved17' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:256:5: warning: type of bit-field 'asesvld' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:258:5: warning: type of bit-field 'bsesvld' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:260:5: warning: type of bit-field 'currmod' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:262:5: warning: type of bit-field 'Reserved21_31' is a GCC extension [-Wpedantic]
+     11;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:272:5: warning: type of bit-field 'Reserved0_1' is a GCC extension [-Wpedantic]
+     2;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:274:5: warning: type of bit-field 'sesenddet' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:276:5: warning: type of bit-field 'Reserved3_7' is a GCC extension [-Wpedantic]
+     5;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:278:5: warning: type of bit-field 'sesreqsucstschng' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:280:5: warning: type of bit-field 'hstnegsucstschng' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:282:5: warning: type of bit-field 'reserver10_16' is a GCC extension [-Wpedantic]
+     7;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:284:5: warning: type of bit-field 'hstnegdet' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:286:5: warning: type of bit-field 'adevtoutchng' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:288:5: warning: type of bit-field 'debdone' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:290:5: warning: type of bit-field 'Reserved31_20' is a GCC extension [-Wpedantic]
+     12;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:300:5: warning: type of bit-field 'glblintrmsk' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:302:5: warning: type of bit-field 'hburstlen' is a GCC extension [-Wpedantic]
+     4;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:304:5: warning: type of bit-field 'dmaenable' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:306:5: warning: type of bit-field 'Reserved' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:308:5: warning: type of bit-field 'nptxfemplvl_txfemplvl' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:310:5: warning: type of bit-field 'ptxfemplvl' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:312:5: warning: type of bit-field 'Reserved9_31' is a GCC extension [-Wpedantic]
+     23;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:322:5: warning: type of bit-field 'toutcal' is a GCC extension [-Wpedantic]
+     3;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:324:5: warning: type of bit-field 'phyif' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:326:5: warning: type of bit-field 'ulpi_utmi_sel' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:328:5: warning: type of bit-field 'fsintf' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:330:5: warning: type of bit-field 'physel' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:332:5: warning: type of bit-field 'ddrsel' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:334:5: warning: type of bit-field 'srpcap' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:336:5: warning: type of bit-field 'hnpcap' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:338:5: warning: type of bit-field 'usbtrdtim' is a GCC extension [-Wpedantic]
+     4;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:340:5: warning: type of bit-field 'nptxfrwnden' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:342:5: warning: type of bit-field 'phylpwrclksel' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:344:5: warning: type of bit-field 'otgutmifssel' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:346:5: warning: type of bit-field 'ulpi_fsls' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:348:5: warning: type of bit-field 'ulpi_auto_res' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:350:5: warning: type of bit-field 'ulpi_clk_sus_m' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:352:5: warning: type of bit-field 'ulpi_ext_vbus_drv' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:354:5: warning: type of bit-field 'ulpi_int_vbus_indicator' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:356:5: warning: type of bit-field 'term_sel_dl_pulse' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:358:5: warning: type of bit-field 'Reserved' is a GCC extension [-Wpedantic]
+     6;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:360:5: warning: type of bit-field 'force_host' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:362:5: warning: type of bit-field 'force_dev' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:364:5: warning: type of bit-field 'corrupt_tx' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:374:5: warning: type of bit-field 'csftrst' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:376:5: warning: type of bit-field 'hsftrst' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:378:5: warning: type of bit-field 'hstfrm' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:380:5: warning: type of bit-field 'intknqflsh' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:382:5: warning: type of bit-field 'rxfflsh' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:384:5: warning: type of bit-field 'txfflsh' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:386:5: warning: type of bit-field 'txfnum' is a GCC extension [-Wpedantic]
+     5;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:388:5: warning: type of bit-field 'Reserved11_29' is a GCC extension [-Wpedantic]
+     19;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:390:5: warning: type of bit-field 'dmareq' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:392:5: warning: type of bit-field 'ahbidle' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:402:5: warning: type of bit-field 'Reserved0' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:404:5: warning: type of bit-field 'modemismatch' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:406:5: warning: type of bit-field 'otgintr' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:408:5: warning: type of bit-field 'sofintr' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:410:5: warning: type of bit-field 'rxstsqlvl' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:412:5: warning: type of bit-field 'nptxfempty' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:414:5: warning: type of bit-field 'ginnakeff' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:416:5: warning: type of bit-field 'goutnakeff' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:418:5: warning: type of bit-field 'Reserved8' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:420:5: warning: type of bit-field 'i2cintr' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:422:5: warning: type of bit-field 'erlysuspend' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:424:5: warning: type of bit-field 'usbsuspend' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:426:5: warning: type of bit-field 'usbreset' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:428:5: warning: type of bit-field 'enumdone' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:430:5: warning: type of bit-field 'isooutdrop' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:432:5: warning: type of bit-field 'eopframe' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:434:5: warning: type of bit-field 'Reserved16' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:436:5: warning: type of bit-field 'epmismatch' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:438:5: warning: type of bit-field 'inepintr' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:440:5: warning: type of bit-field 'outepintr' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:442:5: warning: type of bit-field 'incomplisoin' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:444:5: warning: type of bit-field 'incomplisoout' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:446:5: warning: type of bit-field 'Reserved22_23' is a GCC extension [-Wpedantic]
+     2;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:448:5: warning: type of bit-field 'portintr' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:450:5: warning: type of bit-field 'hcintr' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:452:5: warning: type of bit-field 'ptxfempty' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:454:5: warning: type of bit-field 'Reserved27' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:456:5: warning: type of bit-field 'conidstschng' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:458:5: warning: type of bit-field 'disconnect' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:460:5: warning: type of bit-field 'sessreqintr' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:462:5: warning: type of bit-field 'wkupintr' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:472:5: warning: type of bit-field 'curmode' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:474:5: warning: type of bit-field 'modemismatch' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:476:5: warning: type of bit-field 'otgintr' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:478:5: warning: type of bit-field 'sofintr' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:480:5: warning: type of bit-field 'rxstsqlvl' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:482:5: warning: type of bit-field 'nptxfempty' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:484:5: warning: type of bit-field 'ginnakeff' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:486:5: warning: type of bit-field 'goutnakeff' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:488:5: warning: type of bit-field 'Reserved8' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:490:5: warning: type of bit-field 'i2cintr' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:492:5: warning: type of bit-field 'erlysuspend' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:494:5: warning: type of bit-field 'usbsuspend' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:496:5: warning: type of bit-field 'usbreset' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:498:5: warning: type of bit-field 'enumdone' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:500:5: warning: type of bit-field 'isooutdrop' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:502:5: warning: type of bit-field 'eopframe' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:504:5: warning: type of bit-field 'intimerrx' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:506:5: warning: type of bit-field 'epmismatch' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:508:5: warning: type of bit-field 'inepint' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:510:5: warning: type of bit-field 'outepintr' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:512:5: warning: type of bit-field 'incomplisoin' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:514:5: warning: type of bit-field 'incomplisoout' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:516:5: warning: type of bit-field 'Reserved22_23' is a GCC extension [-Wpedantic]
+     2;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:518:5: warning: type of bit-field 'portintr' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:520:5: warning: type of bit-field 'hcintr' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:522:5: warning: type of bit-field 'ptxfempty' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:524:5: warning: type of bit-field 'Reserved27' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:526:5: warning: type of bit-field 'conidstschng' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:528:5: warning: type of bit-field 'disconnect' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:530:5: warning: type of bit-field 'sessreqintr' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:532:5: warning: type of bit-field 'wkupintr' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:542:5: warning: type of bit-field 'epnum' is a GCC extension [-Wpedantic]
+     4;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:544:5: warning: type of bit-field 'bcnt' is a GCC extension [-Wpedantic]
+     11;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:546:5: warning: type of bit-field 'dpid' is a GCC extension [-Wpedantic]
+     2;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:548:5: warning: type of bit-field 'pktsts' is a GCC extension [-Wpedantic]
+     4;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:550:5: warning: type of bit-field 'fn' is a GCC extension [-Wpedantic]
+     4;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:552:5: warning: type of bit-field 'Reserved' is a GCC extension [-Wpedantic]
+     7;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:562:5: warning: type of bit-field 'chnum' is a GCC extension [-Wpedantic]
+     4;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:564:5: warning: type of bit-field 'bcnt' is a GCC extension [-Wpedantic]
+     11;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:566:5: warning: type of bit-field 'dpid' is a GCC extension [-Wpedantic]
+     2;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:568:5: warning: type of bit-field 'pktsts' is a GCC extension [-Wpedantic]
+     4;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:570:5: warning: type of bit-field 'Reserved' is a GCC extension [-Wpedantic]
+     11;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:580:5: warning: type of bit-field 'startaddr' is a GCC extension [-Wpedantic]
+     16;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:582:5: warning: type of bit-field 'depth' is a GCC extension [-Wpedantic]
+     16;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:592:5: warning: type of bit-field 'nptxfspcavail' is a GCC extension [-Wpedantic]
+     16;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:594:5: warning: type of bit-field 'nptxqspcavail' is a GCC extension [-Wpedantic]
+     8;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:596:5: warning: type of bit-field 'nptxqtop_terminate' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:598:5: warning: type of bit-field 'nptxqtop_timer' is a GCC extension [-Wpedantic]
+     2;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:600:5: warning: type of bit-field 'nptxqtop' is a GCC extension [-Wpedantic]
+     2;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:602:5: warning: type of bit-field 'chnum' is a GCC extension [-Wpedantic]
+     2;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:604:5: warning: type of bit-field 'Reserved' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:614:5: warning: type of bit-field 'txfspcavail' is a GCC extension [-Wpedantic]
+     16;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:616:5: warning: type of bit-field 'Reserved' is a GCC extension [-Wpedantic]
+     16;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:626:5: warning: type of bit-field 'rwdata' is a GCC extension [-Wpedantic]
+     8;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:628:5: warning: type of bit-field 'regaddr' is a GCC extension [-Wpedantic]
+     8;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:630:5: warning: type of bit-field 'addr' is a GCC extension [-Wpedantic]
+     7;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:632:5: warning: type of bit-field 'i2cen' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:634:5: warning: type of bit-field 'ack' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:636:5: warning: type of bit-field 'i2csuspctl' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:638:5: warning: type of bit-field 'i2cdevaddr' is a GCC extension [-Wpedantic]
+     2;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:640:5: warning: type of bit-field 'dat_se0' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:642:5: warning: type of bit-field 'Reserved' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:644:5: warning: type of bit-field 'rw' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:646:5: warning: type of bit-field 'bsydne' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:656:5: warning: type of bit-field 'Reserved_in' is a GCC extension [-Wpedantic]
+     16;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:658:5: warning: type of bit-field 'pwdn' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:660:5: warning: type of bit-field 'i2cifen' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:662:5: warning: type of bit-field 'vbussensingA' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:664:5: warning: type of bit-field 'vbussensingB' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:666:5: warning: type of bit-field 'sofouten' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:668:5: warning: type of bit-field 'disablevbussensing' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:670:5: warning: type of bit-field 'Reserved_out' is a GCC extension [-Wpedantic]
+     10;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:681:5: warning: type of bit-field 'devspd' is a GCC extension [-Wpedantic]
+     2;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:683:5: warning: type of bit-field 'nzstsouthshk' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:685:5: warning: type of bit-field 'Reserved3' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:687:5: warning: type of bit-field 'devaddr' is a GCC extension [-Wpedantic]
+     7;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:689:5: warning: type of bit-field 'perfrint' is a GCC extension [-Wpedantic]
+     2;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:691:5: warning: type of bit-field 'Reserved13_17' is a GCC extension [-Wpedantic]
+     5;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:693:5: warning: type of bit-field 'epmscnt' is a GCC extension [-Wpedantic]
+     4;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:703:5: warning: type of bit-field 'rmtwkupsig' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:705:5: warning: type of bit-field 'sftdiscon' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:707:5: warning: type of bit-field 'gnpinnaksts' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:709:5: warning: type of bit-field 'goutnaksts' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:711:5: warning: type of bit-field 'tstctl' is a GCC extension [-Wpedantic]
+     3;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:713:5: warning: type of bit-field 'sgnpinnak' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:715:5: warning: type of bit-field 'cgnpinnak' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:717:5: warning: type of bit-field 'sgoutnak' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:719:5: warning: type of bit-field 'cgoutnak' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:721:5: warning: type of bit-field 'Reserved' is a GCC extension [-Wpedantic]
+     21;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:731:5: warning: type of bit-field 'suspsts' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:733:5: warning: type of bit-field 'enumspd' is a GCC extension [-Wpedantic]
+     2;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:735:5: warning: type of bit-field 'errticerr' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:737:5: warning: type of bit-field 'Reserved4_7' is a GCC extension [-Wpedantic]
+     4;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:739:5: warning: type of bit-field 'soffn' is a GCC extension [-Wpedantic]
+     14;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:741:5: warning: type of bit-field 'Reserved22_31' is a GCC extension [-Wpedantic]
+     10;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:751:5: warning: type of bit-field 'xfercompl' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:753:5: warning: type of bit-field 'epdisabled' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:755:5: warning: type of bit-field 'ahberr' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:757:5: warning: type of bit-field 'timeout' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:759:5: warning: type of bit-field 'intktxfemp' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:761:5: warning: type of bit-field 'intknepmis' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:763:5: warning: type of bit-field 'inepnakeff' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:765:5: warning: type of bit-field 'emptyintr' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:767:5: warning: type of bit-field 'txfifoundrn' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:769:5: warning: type of bit-field 'Reserved08_31' is a GCC extension [-Wpedantic]
+     23;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:780:5: warning: type of bit-field 'xfercompl' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:782:5: warning: type of bit-field 'epdisabled' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:784:5: warning: type of bit-field 'ahberr' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:786:5: warning: type of bit-field 'setup' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:788:5: warning: type of bit-field 'Reserved04_31' is a GCC extension [-Wpedantic]
+     28;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:800:5: warning: type of bit-field 'in' is a GCC extension [-Wpedantic]
+     16;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:802:5: warning: type of bit-field 'out' is a GCC extension [-Wpedantic]
+     16;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:813:5: warning: type of bit-field 'non_iso_thr_en' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:815:5: warning: type of bit-field 'iso_thr_en' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:817:5: warning: type of bit-field 'tx_thr_len' is a GCC extension [-Wpedantic]
+     9;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:819:5: warning: type of bit-field 'Reserved11_15' is a GCC extension [-Wpedantic]
+     5;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:821:5: warning: type of bit-field 'rx_thr_en' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:823:5: warning: type of bit-field 'rx_thr_len' is a GCC extension [-Wpedantic]
+     9;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:825:5: warning: type of bit-field 'Reserved26_31' is a GCC extension [-Wpedantic]
+     6;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:835:5: warning: type of bit-field 'mps' is a GCC extension [-Wpedantic]
+     11;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:837:5: warning: type of bit-field 'reserved' is a GCC extension [-Wpedantic]
+     4;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:839:5: warning: type of bit-field 'usbactep' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:841:5: warning: type of bit-field 'dpid' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:843:5: warning: type of bit-field 'naksts' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:845:5: warning: type of bit-field 'eptype' is a GCC extension [-Wpedantic]
+     2;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:847:5: warning: type of bit-field 'snp' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:849:5: warning: type of bit-field 'stall' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:851:5: warning: type of bit-field 'txfnum' is a GCC extension [-Wpedantic]
+     4;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:853:5: warning: type of bit-field 'cnak' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:855:5: warning: type of bit-field 'snak' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:857:5: warning: type of bit-field 'setd0pid' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:859:5: warning: type of bit-field 'setd1pid' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:861:5: warning: type of bit-field 'epdis' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:863:5: warning: type of bit-field 'epena' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:873:5: warning: type of bit-field 'xfersize' is a GCC extension [-Wpedantic]
+     19;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:875:5: warning: type of bit-field 'pktcnt' is a GCC extension [-Wpedantic]
+     10;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:877:5: warning: type of bit-field 'mc' is a GCC extension [-Wpedantic]
+     2;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:879:5: warning: type of bit-field 'Reserved' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:889:5: warning: type of bit-field 'xfersize' is a GCC extension [-Wpedantic]
+     7;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:891:5: warning: type of bit-field 'Reserved7_18' is a GCC extension [-Wpedantic]
+     12;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:893:5: warning: type of bit-field 'pktcnt' is a GCC extension [-Wpedantic]
+     2;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:895:5: warning: type of bit-field 'Reserved20_28' is a GCC extension [-Wpedantic]
+     9;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:897:5: warning: type of bit-field 'supcnt' is a GCC extension [-Wpedantic]
+     2;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:908:5: warning: type of bit-field 'fslspclksel' is a GCC extension [-Wpedantic]
+     2;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:910:5: warning: type of bit-field 'fslssupp' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:920:5: warning: type of bit-field 'frint' is a GCC extension [-Wpedantic]
+     16;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:922:5: warning: type of bit-field 'Reserved' is a GCC extension [-Wpedantic]
+     16;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:933:5: warning: type of bit-field 'frnum' is a GCC extension [-Wpedantic]
+     16;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:935:5: warning: type of bit-field 'frrem' is a GCC extension [-Wpedantic]
+     16;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:945:5: warning: type of bit-field 'ptxfspcavail' is a GCC extension [-Wpedantic]
+     16;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:947:5: warning: type of bit-field 'ptxqspcavail' is a GCC extension [-Wpedantic]
+     8;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:949:5: warning: type of bit-field 'ptxqtop_terminate' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:951:5: warning: type of bit-field 'ptxqtop_timer' is a GCC extension [-Wpedantic]
+     2;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:953:5: warning: type of bit-field 'ptxqtop' is a GCC extension [-Wpedantic]
+     2;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:955:5: warning: type of bit-field 'chnum' is a GCC extension [-Wpedantic]
+     2;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:957:5: warning: type of bit-field 'ptxqtop_odd' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:967:5: warning: type of bit-field 'prtconnsts' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:969:5: warning: type of bit-field 'prtconndet' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:971:5: warning: type of bit-field 'prtena' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:973:5: warning: type of bit-field 'prtenchng' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:975:5: warning: type of bit-field 'prtovrcurract' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:977:5: warning: type of bit-field 'prtovrcurrchng' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:979:5: warning: type of bit-field 'prtres' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:981:5: warning: type of bit-field 'prtsusp' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:983:5: warning: type of bit-field 'prtrst' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:985:5: warning: type of bit-field 'Reserved9' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:987:5: warning: type of bit-field 'prtlnsts' is a GCC extension [-Wpedantic]
+     2;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:989:5: warning: type of bit-field 'prtpwr' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:991:5: warning: type of bit-field 'prttstctl' is a GCC extension [-Wpedantic]
+     4;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:993:5: warning: type of bit-field 'prtspd' is a GCC extension [-Wpedantic]
+     2;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:995:5: warning: type of bit-field 'Reserved19_31' is a GCC extension [-Wpedantic]
+     13;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:1005:5: warning: type of bit-field 'chint' is a GCC extension [-Wpedantic]
+     16;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:1007:5: warning: type of bit-field 'Reserved' is a GCC extension [-Wpedantic]
+     16;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:1017:5: warning: type of bit-field 'chint' is a GCC extension [-Wpedantic]
+     16;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:1019:5: warning: type of bit-field 'Reserved' is a GCC extension [-Wpedantic]
+     16;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:1029:5: warning: type of bit-field 'mps' is a GCC extension [-Wpedantic]
+     11;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:1031:5: warning: type of bit-field 'epnum' is a GCC extension [-Wpedantic]
+     4;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:1033:5: warning: type of bit-field 'epdir' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:1035:5: warning: type of bit-field 'Reserved' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:1037:5: warning: type of bit-field 'lspddev' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:1039:5: warning: type of bit-field 'eptype' is a GCC extension [-Wpedantic]
+     2;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:1041:5: warning: type of bit-field 'multicnt' is a GCC extension [-Wpedantic]
+     2;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:1043:5: warning: type of bit-field 'devaddr' is a GCC extension [-Wpedantic]
+     7;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:1045:5: warning: type of bit-field 'oddfrm' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:1047:5: warning: type of bit-field 'chdis' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:1049:5: warning: type of bit-field 'chen' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:1059:5: warning: type of bit-field 'prtaddr' is a GCC extension [-Wpedantic]
+     7;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:1061:5: warning: type of bit-field 'hubaddr' is a GCC extension [-Wpedantic]
+     7;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:1063:5: warning: type of bit-field 'xactpos' is a GCC extension [-Wpedantic]
+     2;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:1065:5: warning: type of bit-field 'compsplt' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:1067:5: warning: type of bit-field 'Reserved' is a GCC extension [-Wpedantic]
+     14;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:1069:5: warning: type of bit-field 'spltena' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:1079:5: warning: type of bit-field 'xfercompl' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:1081:5: warning: type of bit-field 'chhltd' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:1083:5: warning: type of bit-field 'ahberr' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:1085:5: warning: type of bit-field 'stall' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:1087:5: warning: type of bit-field 'nak' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:1089:5: warning: type of bit-field 'ack' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:1091:5: warning: type of bit-field 'nyet' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:1093:5: warning: type of bit-field 'xacterr' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:1095:5: warning: type of bit-field 'bblerr' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:1097:5: warning: type of bit-field 'frmovrun' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:1099:5: warning: type of bit-field 'datatglerr' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:1101:5: warning: type of bit-field 'Reserved' is a GCC extension [-Wpedantic]
+     21;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:1111:5: warning: type of bit-field 'xfersize' is a GCC extension [-Wpedantic]
+     19;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:1113:5: warning: type of bit-field 'pktcnt' is a GCC extension [-Wpedantic]
+     10;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:1115:5: warning: type of bit-field 'pid' is a GCC extension [-Wpedantic]
+     2;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:1117:5: warning: type of bit-field 'dopng' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:1127:5: warning: type of bit-field 'xfercompl' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:1129:5: warning: type of bit-field 'chhltd' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:1131:5: warning: type of bit-field 'ahberr' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:1133:5: warning: type of bit-field 'stall' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:1135:5: warning: type of bit-field 'nak' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:1137:5: warning: type of bit-field 'ack' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:1139:5: warning: type of bit-field 'nyet' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:1141:5: warning: type of bit-field 'xacterr' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:1143:5: warning: type of bit-field 'bblerr' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:1145:5: warning: type of bit-field 'frmovrun' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:1147:5: warning: type of bit-field 'datatglerr' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:1149:5: warning: type of bit-field 'Reserved' is a GCC extension [-Wpedantic]
+     21;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:1159:5: warning: type of bit-field 'stoppclk' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:1161:5: warning: type of bit-field 'gatehclk' is a GCC extension [-Wpedantic]
+     1;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_regs.h:1163:5: warning: type of bit-field 'Reserved' is a GCC extension [-Wpedantic]
+     30;
+     ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_core.c: In function 'USB_OTG_ActiveRemoteWakeup':
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_core.c:1989:9: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+         power.d32 = USB_OTG_READ_REG32(&pdev->regs.PCGCCTL);
+         ^
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_core.c: In function 'USB_OTG_UngateClock':
+device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_core.c:2023:7: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+       power.d32 = USB_OTG_READ_REG32(&pdev->regs.PCGCCTL);
+       ^
+make: *** [device/stm32f30x/lib_low_level/usb/usb_lib/otg/usb_core.o] Error 1

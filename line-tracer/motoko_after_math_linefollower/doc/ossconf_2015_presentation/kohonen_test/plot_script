@@ -1,0 +1,58 @@
+set   autoscale                        # scale axes automatically
+unset log                              # remove any log-scaling
+unset label                            # remove any previous labels
+set xtic auto                         	# set xtics automatically
+set ytic auto                         # set ytics automatically
+
+set key right top
+
+set grid ytics lt 0.1 lw 0.1 lc rgb "#bbbbbb"
+set grid xtics lt 0.1 lw 0.1 lc rgb "#bbbbbb"
+set terminal png size 1024,768 enhanced font "Helvetica,20"
+
+
+
+set key
+set xlabel "input[0]"
+set ylabel "input[1]"
+
+set output 'learing_result.png'
+
+plot "input.txt" using 1:2 title "input" with points, \
+	"network_output.txt" using 1:2 title "centroid" with points lw 3, \
+	"network_output.txt" using 1:2:($0+1) with labels offset 1 notitle
+
+
+
+
+set label
+
+set xlabel "input[0]"
+set ylabel "input[1]"
+set zlabel "distance"
+
+set view 40,30 
+
+set xtic auto
+set ytic auto
+set ztic auto
+
+set lmargin 5
+set key below
+
+
+set hidden3d
+
+set dgrid3d 64,64
+#set xyplane at 0
+set surface
+
+set autoscale
+
+#set style fill transparent solid 0.5 noborder
+
+set output 'distances_result.png' 
+splot 'distances_output.txt' using 1:2:3 title "testing set distances values" with pm3d
+
+#lines lw 1.2
+

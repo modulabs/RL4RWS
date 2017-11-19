@@ -1,0 +1,97 @@
+#/bin/bash
+
+
+#evice="qemu"
+#device="stm32f10x"
+device="stm32f30x"
+
+
+echo configuring for device $device
+
+
+if [ "$device" == "qemu" ] ; then
+
+	#create makefile
+
+	#echo "TARGET = -mcpu=cortex-m3 -mthumb -mfloat-abi=soft" > Makefile
+
+	echo "TARGET = -mthumb -mcpu=cortex-m3 -mfloat-abi=soft"> Makefile
+ 
+	echo "DEVICE_LIBS = device/qemu" >> Makefile
+	echo "THIRD_PARTY_LIBS =" >>Makefile
+	echo >> Makefile
+
+	echo "LDFLAGS+= --specs=rdimon.specs" >> Makefile
+ 
+	cat Makefile_ >> Makefile
+
+	#create device/device.h to include correct libs
+
+	echo "#ifndef _DEVICE_H_" > device/device.h
+	echo "#define _DEVICE_H_" >> device/device.h
+	echo " " >> device/device.h
+	echo "#define CPU_QEMU		1" >> device/device.h
+	echo "#define CPU_CORE_CORTEX_M_GENERIC	1" >> device/device.h
+	echo "#define __FPU_PRESENT 0" >> device/device.h
+	echo " " >> device/device.h
+	echo "#include \"qemu/lib_low_level/lib_low_level.h\" " >> device/device.h
+	echo " " >> device/device.h
+	echo "#endif" >> device/device.h
+fi
+
+if [ "$device" == "stm32f10x" ] ; then
+
+	#create makefile
+
+	echo "TARGET = -mcpu=cortex-m3 -mthumb -mfloat-abi=soft" > Makefile
+
+	echo "DEVICE_LIBS = device/stm32f10x" >> Makefile
+	echo "THIRD_PARTY_LIBS =" >>Makefile
+	echo >> Makefile
+
+	cat Makefile_ >> Makefile
+
+	#create device/device.h to include correct libs
+
+	echo "#ifndef _DEVICE_H_" > device/device.h
+	echo "#define _DEVICE_H_" >> device/device.h
+	echo " " >> device/device.h
+	echo "#define CPU_STM32F10x		1" >> device/device.h
+	echo "#define CPU_CORE_CORTEX_M3	1" >> device/device.h
+	echo "#define __FPU_PRESENT 0" >> device/device.h
+	echo " " >> device/device.h
+	echo "#include \"stm32f10x/lib_low_level/lib_low_level.h\" " >> device/device.h
+	echo " " >> device/device.h
+	echo "#endif" >> device/device.h
+fi
+
+if [ "$device" == "stm32f30x" ] ; then
+
+	#create makefile
+
+	#soft float
+	#echo "TARGET = -mcpu=cortex-m4 -mthumb -mfloat-abi=soft" > Makefile
+
+	#use FPU
+	echo "TARGET = -mcpu=cortex-m4 -mthumb -mfloat-abi=softfp -mfpu=vfp -fsingle-precision-constant" > Makefile
+
+ 
+	echo "DEVICE_LIBS = device/stm32f30x" >> Makefile
+	echo "THIRD_PARTY_LIBS =" >>Makefile
+	echo >> Makefile
+
+	cat Makefile_ >> Makefile
+
+	#create device/device.h to include correct libs
+
+	echo "#ifndef _DEVICE_H_" > device/device.h
+	echo "#define _DEVICE_H_" >> device/device.h
+	echo " " >> device/device.h
+	echo "#define CPU_STM32F3		1" >> device/device.h
+	echo "#define CPU_CORE_CORTEX_M4	1" >> device/device.h
+	echo "#define __FPU_PRESENT 1" >> device/device.h
+	echo " " >> device/device.h
+	echo "#include \"stm32f30x/lib_low_level/lib_low_level.h\" " >> device/device.h
+	echo " " >> device/device.h
+	echo "#endif" >> device/device.h
+fi

@@ -1,0 +1,25 @@
+\frametitle{\bf Smerovanie práce - Riadiace algoritmy}
+
+Univerzálny engine umelej inteligencie
+
+\begin{enumerate}
+\item{Definovanie problému - CSolution}
+\item{Vlastný algoritmus - Diferenciálna evolúcia}
+\end{enumerate}
+
+\begin{enumerate}
+\item{class CAbstractSolution}
+\item{class CSolution}
+\item{class CDiferentialEvolution}
+\end{enumerate}
+
+{\small
+\begin{lstlisting}[language=Ruby]
+require './solution.rb'
+require './diferential_evolution.rb'
+
+evolution = CDiferentialEvolution.new(32, CSolution);
+evolution.process(1000);
+\end{lstlisting}
+}
+
