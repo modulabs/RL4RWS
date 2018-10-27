@@ -1,3 +1,6 @@
 [submodule "S2-autonomous-car/Reinforcment-Learning-With-Q-Learning"]
 	path = S2-autonomous-car/Reinforcment-Learning-With-Q-Learning
 	url = https://github.com/ahracho/Reinforcment-Learning-With-Q-Learning
+[submodule "S3-Autonomous-Car/Alpha-Car"]
+	path = S3-Autonomous-Car/Alpha-Car
+	url = https://github.com/qjadud1994/Alpha-Car.git
